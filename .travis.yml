@@ -17,4 +17,4 @@ script:
   #Test unitario y de integracion con cobertura (jacoco)
   - mvn org.jacoco:jacoco-maven-plugin:prepare-agent verify
   #SONARCLOUD $SONAR es una variable de entorno declarada en Travis-CI con una key generada en sonarcloud
-  - mvn sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=juliancuestas -Dsonar.login=$SONAR
+  - mvn sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=juliancuestas -Dsonar.projectKey=JulianCuestas_ecosystem-demo -Dsonar.login=$SONAR
