@@ -25,6 +25,7 @@ deploy:
   provider: heroku
   api_key:
     secure: $HEROKU
+  skip_cleanup: true
   on:
     repo: JulianCuestas/ecosystem-demo
     branch: master
