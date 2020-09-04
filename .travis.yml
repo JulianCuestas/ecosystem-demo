@@ -21,10 +21,11 @@ script:
   
 #Deploy https://iwvg-ecosystem.herokuapp.com/api
 #$HEROKU es una variable de entorno declarada en Travis-CI con la API key de heroku
+before_deploy: "echo $HEROKU_API_KEY"
 deploy:
   provider: heroku
   api_key:
-    secure: "$HEROKU_API_KEY"
+    secure: $HEROKU_API_KEY
   on:
     branch: master
   app: ecosystem-demo-test
