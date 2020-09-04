@@ -26,6 +26,7 @@ deploy:
   api_key:
     secure: $HEROKU
   on:
+    repo: JulianCuestas/ecosystem-demo
     branch: master
   app: ecosystem-demo-test
   
