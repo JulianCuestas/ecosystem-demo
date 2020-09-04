@@ -25,8 +25,7 @@ deploy:
   skip_cleanup: true
   provider: heroku
   api_key:
-    secure: $HEROKU_API_KEY
+    secure: VY/huEo5hKCZiEK2LOqo0LF5f9wnbPvy3/q0iMjYUPQS6RKp0Q6WMWpEjTTlkdrKAnFEYpV8HKsusNtpfPedVlAQumyVC93fKp8g5nBFBHY4HiFaQMc5vBa/BYhLIf9Ar0D8MymaTK0t2CrFLGYeewdCGvNaWRhA8JWD7EZScsIT2+8iZ02BFZ4XI14bVlnOGtL/RJFnU36HpXkDQ73yGHnfuOCX7QsUSWBRhPVV7zwdPz2Nhqy7oqSiJS5ZukSC4WL2cgqRajQ3fEB3nTgikCY5OmFIYa4poBXm24yWJd9XGzWIYuCCxYVNcyb0g00LAuZbg1p5BpCTWRUAAAAEORIPA/U439NdGCdwn0NoBxhlDg4Z4kZSy972O7CQhPBDple4R7iXpY8UEHgfStz/t8RxVEpj+ym6yydBf8JwY0CPUfcX5dLYNiPeycy7OrAHfO2aNaCZEFRRpbb1jPEySb8zU/foj13f3xTVaM0kVgsiIPNrdj11UZemZkcyIUjQr4a+xN7Qg2y4Au7gijNZY/PPhW0OUiA54QTdcFa6tLOIyOd3PFpRQoeeKFAO2+prKsH7WCly0rdZzTu4b9mAARidgtPjk69/52xaZcb4jhOR211zjb4E2m57wCDDTztmCRviRBida4fxDPFWZ4DmAkBXC3fwH6UVy6kxO80uxm4=
   on:
     branch: master
   app: ecosystem-demo-test
-  
