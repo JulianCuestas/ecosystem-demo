@@ -19,10 +19,10 @@ script:
   #SONARCLOUD $SONAR es una variable de entorno declarada en Travis-CI con una key generada en sonarcloud
   - mvn sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=juliancuestas -Dsonar.projectKey=JulianCuestas_ecosystem-demo -Dsonar.login=$SONAR
   
+  - echo $HEROKU_API_KEY
+  
 #Deploy https://iwvg-ecosystem.herokuapp.com/api
 #$HEROKU es una variable de entorno declarada en Travis-CI con la API key de heroku
-before_deploy:
-  - echo $HEROKU_API_KEY
 deploy:
   provider: heroku
   api_key:
