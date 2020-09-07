@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/ecosystem-demo-1.0.0-RELEASE.jar
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/ecosystem-demo-1.1.0-RELEASE.jar
